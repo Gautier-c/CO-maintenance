@@ -1,0 +1,35 @@
+body
+{
+    margin-top: 0;
+    background-color: #372823;
+    text-align: center;    
+}
+p
+{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+#logo
+{
+    width: 200px;
+    height: 200px;
+}
+p
+{
+    margin-top: -10px;
+}
+main
+{
+    margin-top: 10%;
+}
+#main-photo
+{
+    width: 100%;
+}
+
+@media all and (min-width: 1225px) {
+    #main-photo
+    {
+        margin-top:-5%;
+    }
+}
