@@ -1,35 +1,30 @@
 body
 {
     margin-top: 0;
-    background-color: #372823;
-    text-align: center;    
+    background-image: url(mainphoto.jpg);
+    background-size: cover;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    
 }
 p
 {
-    color: white;
+    margin:auto;
+    width: 40%;
+    color:white ;
     font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    background-color:rgba(55,40 , 35, 0.75) ;
+    justify-content: center;
 }
 #logo
 {
+    justify-content: center;
     width: 200px;
     height: 200px;
 }
-p
+#txt1
 {
-    margin-top: -10px;
-}
-main
-{
-    margin-top: 10%;
-}
-#main-photo
-{
-    width: 100%;
-}
-
-@media all and (min-width: 1225px) {
-    #main-photo
-    {
-        margin-top:-5%;
-    }
+    margin-top: 400px;
 }
